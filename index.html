@@ -1,64 +1,221 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Invitacion - ApartmentShower</title>
+</head>
 
-    <title>Hola mundo!</title>
-  </head>
-  <body>
-    <h1>Hola mundo!</h1>
-    <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Accordion Item #1
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
             </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link  text-black" href="#about">Invitacion</a></li>
+                    <li class="nav-item"><a class="nav-link  text-black" href="#projects">Informacion</a></li>
+                    <li class="nav-item"><a class="nav-link  text-black" href="#contact-section">Contacto</a></li>
+                </ul>
             </div>
-          </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Accordion Item #2
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+            <div class="d-flex justify-content-center">
+                <div class="text-center invitation-bg p-4 nine">
+                    <div class="nine">
+                        <h1>Hamburguesas<span>a la  </span></h1>
+                    </div>
+                    <h1 class="mx-auto my-0  p-4 text-uppercase" style="font-size: 10rem !important;">Altura</h1>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5"></h2>
+                    <a class="btn btn-primary" href="#about">Comenzar</a>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Accordion Item #3
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+    </header>
+    <!-- About-->
+    <section class="about-section text-center" id="about">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="text-white mb-4">Built with Bootstrap 5</h2>
+                    <p class="text-white-50">
+                        Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now,
+                        simply download the template on
+                        <a href="https://startbootstrap.com/theme/grayscale/">the preview page.</a>
+                        The theme is open source, and you can use it for any purpose, personal or commercial.
+                    </p>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    <!-- Optional JavaScript; choose one of the two! -->
+        <div class="p-3 bg-info w-100"></div>
+        <div class="p-3 bg-light w-100"></div>
+        <div class="p-3 mb-2  bg-info w-100"></div>
+    </section>
+    <!-- Projects-->
+    <section class="projects-section bg-light" id="projects">
+        <div class="container px-4 px-lg-5">
+            <!-- Featured Project Row-->
+            <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0 w-50 h-50" src="assets/img/banner-section.jpg"
+                        alt="..." /></div>
+                <div class="col-xl-4 col-lg-5">
+                    <div class="featured-text text-center text-lg-left">
+                        <h4>Shoreline</h4>
+                        <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use
+                            it for any project - even commercial projects! Download it, customize it, and publish your
+                            website!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Project One Row-->
+            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="..." /></div>
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white">Misty</h4>
+                                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or
+                                    anything else, along with a description.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project Two Row-->
+            <div class="row gx-0 justify-content-center">
+                <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white">Mountains</h4>
+                                <p class="mb-0 text-white-50">Another example of a project with its respective
+                                    description. These sections work well responsively as well!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact-->
+    <section class="contact-section bg-black" id="contact-section">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Direccion</h4>
+                            <hr class="my-4 mx-auto" />
+                            <div class="small text-black-50"><a target="_blank" href="http://maps.google.com/?q=General Paz 840, San Miguel de Tucumán, Provincia de Tucumán">General Paz 840 - Departamento 44</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-envelope text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Email</h4>
+                            <hr class="my-4 mx-auto" />
+                            <div class="small text-black-50"><a target="_blank" href="#!">santievan98@gmail.com</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fa-brands fa-whatsapp text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Telefono</h4>
+                            <hr class="my-4 mx-auto" />
+                            <div class="small text-black-50"><a target="_blank" href="#!">+549 (381) 665-0340</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="social d-flex justify-content-center">
+                <a class="mx-2" href="#!"><i class="fa-brands fa-whatsapp"></i></a>
+                
+                <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer bg-black small text-center text-white-50">
+        <div class="container px-4 px-lg-5">Creado por Santiago Evangelista - 2023</div>
+    </footer>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
-  </body>
+    <script>
+
+        window.addEventListener('DOMContentLoaded', event => {
+
+            // Navbar shrink function
+            var navbarShrink = function () {
+                const navbarCollapsible = document.body.querySelector('#mainNav');
+                if (!navbarCollapsible) {
+                    return;
+                }
+                if (window.scrollY === 0) {
+                    navbarCollapsible.classList.remove('navbar-shrink')
+                } else {
+                    navbarCollapsible.classList.add('navbar-shrink')
+                }
+
+            };
+
+            // Shrink the navbar 
+            navbarShrink();
+
+            // Shrink the navbar when page is scrolled
+            document.addEventListener('scroll', navbarShrink);
+
+            // Activate Bootstrap scrollspy on the main nav element
+            const mainNav = document.body.querySelector('#mainNav');
+            if (mainNav) {
+                new bootstrap.ScrollSpy(document.body, {
+                    target: '#mainNav',
+                    rootMargin: '0px 0px -40%',
+                });
+            };
+
+            // Collapse responsive navbar when toggler is visible
+            const navbarToggler = document.body.querySelector('.navbar-toggler');
+            const responsiveNavItems = [].slice.call(
+                document.querySelectorAll('#navbarResponsive .nav-link')
+            );
+            responsiveNavItems.map(function (responsiveNavItem) {
+                responsiveNavItem.addEventListener('click', () => {
+                    if (window.getComputedStyle(navbarToggler).display !== 'none') {
+                        navbarToggler.click();
+                    }
+                });
+            });
+
+        });
+    </script>
+</body>
+
 </html>
