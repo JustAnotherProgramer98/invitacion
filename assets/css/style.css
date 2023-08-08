@@ -13065,7 +13065,7 @@ body {
   @media (max-width: 450px) {
     .invitation-bg{
         background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.1) -8%, rgba(0, 0, 0, 0.2) 27%);
-        border-top-left-radius: 1420;
+        border-top-left-radius: 20px;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 20px;
         border-bottom-left-radius: 5px;
@@ -13099,7 +13099,7 @@ body {
   @media (min-width:451px){
     .invitation-bg{
         background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.1) -8%, rgba(0, 0, 0, 0.2) 27%);
-        border-top-left-radius: 1420;
+        border-top-left-radius: 20px;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 20px;
         border-bottom-left-radius: 5px;
@@ -13169,9 +13169,18 @@ body {
 .countdown-circles span:first-of-type {
     margin-left: 0;
 }
-.bg-gradient-4 {
-    background: #007991;
-    background: -webkit-linear-gradient(to right, #007991, #78ffd6);
-    background: linear-gradient(to right, #007991, #78ffd6);
+.text-banner {
+    text-transform: uppercase;
+    font-family:"Raleway", sans-serif;
+    font-weight:500;
 }
-  
+.animated-section {
+    opacity: 0;
+    transform: translateX(-100px); /* Empieza fuera de la pantalla hacia la izquierda */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-in {
+    opacity: 1;
+    transform: translateX(0); /* Desplazamiento a la posición normal */
+}
